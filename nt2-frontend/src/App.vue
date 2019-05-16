@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Bienvenido a la app"/>
+    <HelloWorld msg="Visitas pendientes de autorización"/>
   </div>
 </template>
 
@@ -14,6 +14,7 @@ export default {
     HelloWorld
   }
 }
+
 </script>
 
 <style>

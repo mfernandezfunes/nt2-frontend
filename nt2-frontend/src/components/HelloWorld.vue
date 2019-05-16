@@ -3,14 +3,32 @@
     <h1>{{ msg }}</h1>
 
 
-    <div>
-      <b-button>Button</b-button>
-      <b-button variant="danger">Button</b-button>
-      <b-button variant="success">Button</b-button>
-      <b-button variant="outline-primary">Button</b-button>
-    </div>
+   <div>
+     
+   
+   <div>
+   <b-card
+    no-body
+    style="max-width: 15rem;"
+    img-src="https://placekitten.com/380/200"
+    img-alt="Image"
+    img-top
+    >
+    <h4 slot="header">CUIL</h4>
 
+    <b-list-group flush>
+      <b-list-group-item>Apellido, Nombre</b-list-group-item>
+    </b-list-group>
 
+    <b-card-body>
+      <b-button variant="success" >Autorizar</b-button>
+    <b-button variant="danger" >Denegar</b-button>
+
+    </b-card-body>
+
+  </b-card>
+</div>
+</div>
 
   </div>
 
