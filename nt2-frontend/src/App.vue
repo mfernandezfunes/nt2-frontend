@@ -1,17 +1,19 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Visitas pendientes de autorización"/>
+    <formPersona msg="Por favor completete los datos de la nueva persona"/>
+    
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import formPersona from './components/formPersona.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    formPersona
   }
 }
 
